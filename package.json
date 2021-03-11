@@ -1,0 +1,15 @@
+{
+  "name": "roku",
+  "version": "1.0.0",
+  "description": "Flashback Roku",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "start dev": "nodemon app"
+  },
+  "author": "Zhu Meng",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
