@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/reset.css">
+    <link rel="stylesheet" href="../public/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/4cc4d099df.js" crossorigin="anonymous"></script>
+    <title>LOG IN</title>
+</head>
+<body>
+    <section class="login-box">
+        <img id="logo" src="../public/images/roku_logo.svg" alt="roku logo">
+        <h2>LOG IN</h2>
+        <p>Don't have an account? <a href="signup.html">SIGN UP</a>  </p>
+
+        <div class="login-form">
+
+            <form action="/views/login.html" method="post">
+
+            <!-- <label for="username">Username:</label> -->
+            <div class="input-area">
+             <i class="fas fa-user"></i>
+             <input id="username" type="text" name="username" value="" placeholder="ENTER USERNAME*">
+            </div>
+
+            <div class="input-area">
+             <i class="fas fa-key"></i>
+             <!-- <label for="password">Password:</label> -->
+             <input id="password" type="text" name="password" value="" placeholder="ENTER PASSWORD*">
+            </div>
+
+             <button type="submit" name="submit">LOG IN</button>
+            <a href="index.html">BACK</a>
+            <!-- <h4>* Login Attempt: <?php echo $_SESSION['login_attempts']; ?> </h4> -->
+                <!-- <h5>Account will complete lockout after you 3 failed login attempts, please be careful ！！！</h5> -->
+            </form>
+        </div>
+
+    </section>
+</body>
+</html>

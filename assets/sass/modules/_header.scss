@@ -1,0 +1,42 @@
+header{
+    width: 100%;
+    height:auto;
+    background-color:$black ;
+    display: flex;
+    flex-direction: row;
+
+    #logo{
+        width: 200px;
+        margin: 20px 50px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin-left:54%;
+        margin-top: 2%;
+        li{
+            margin: 20px;
+        }
+    }
+    
+    a{
+        background-color: none;
+        color: $white;
+        border: 2px $white solid;
+        padding: 10px 20px;
+        width: 100px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        border-radius: 10px;
+        transition: all .5s ease;
+    }
+    
+    a:hover{
+        color: $red;
+        border: 2px $red solid;
+    }
+}
+
