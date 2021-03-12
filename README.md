@@ -1,5 +1,5 @@
 # Roku Flashback Project
-![header image](/images/readme.jpg "roku team")<br>
+![header image](public/images/readme.jpg "roku team")<br>
 If you miss old movies, don't miss this site. Roku is a website devoted to old movies from the '50s to' 90s. We also offer movies for children, and we tailor the content to the user's age. Roku is also a safe and reliable home theater.
 `Still a work in progress`  <br>
 
