@@ -1,0 +1,19 @@
+
+ <section  id="index-main"  >
+        <div class="index-welcome" >
+         <h2>Welcome</h2>
+         <h3>to Roku Flashback</h3>
+         <p>Everyone can have their home theatre. Your complete theatre-style movie experience at home with your sweet family or friends!</p>
+         <a href="login.hbs">START STREAMING NOW</a>
+        </div>
+        </section>
+
+        <section class="home-movies">
+        <!--render the dynamic data here-->
+         <h1>{{ message }}</h1>
+        <p>Popular movies in cinema & fresh movies for streaming</p>
+         <!--render a thumbnail per movie-->
+         <moviethumb v-for="item in allMovies" :movie="item" :key="item.movies_id"></moviethumb> 
+   
+         </section>
+
