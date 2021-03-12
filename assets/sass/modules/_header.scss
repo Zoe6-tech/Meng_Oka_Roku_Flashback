@@ -21,9 +21,9 @@ header{
     }
     
     a{
+        font-size: 25px;
         background-color: none;
         color: $white;
-        border: 2px $white solid;
         padding: 10px 20px;
         width: 100px;
         cursor: pointer;
@@ -36,7 +36,7 @@ header{
     
     a:hover{
         color: $red;
-        border: 2px $red solid;
+        text-decoration: underline;
     }
 }
 
