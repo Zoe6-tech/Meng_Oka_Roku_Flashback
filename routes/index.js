@@ -31,15 +31,7 @@ router.get('/signup', (req, res) => {
     //res.send('hit the main route');
 })
 
-router.get('/adult', (req, res) => {
-    res.render('adult', {adultMessage :"Welcome to adult page"})
-    //res.send('hit the main route');
-})
 
-router.get('/childern', (req, res) => {
-    res.render('childern', {adultMessage :"Welcome to childern page"})
-    //res.send('hit the main route');
-})
 
 
 //handle 404 error 
