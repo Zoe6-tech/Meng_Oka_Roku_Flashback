@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/reset.css">
-    <link rel="stylesheet" href="../public/css/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/4cc4d099df.js" crossorigin="anonymous"></script>
-    <title>SIGN UP</title>
-</head>
-<body>
+
     <section class="login-box">
-        <img id="logo" src="../public/images/roku_logo.svg" alt="roku logo">
-        <h2>SIGN UP</h2>
-        <p>Already have an account?  <a href="login.html"> LOG IN</a>  </p>
+     
+        <h2>{{SignUpMessage }}</h2>
+        <p>Already have an account?  <a href="login.hbs"> LOG IN</a>  </p>
         <div class="signup-form">
-            <form action="/views/signup.html" method="post">
+            <form action="/views/signup.hbs" method="post">
 
             <!-- <label for="username">Username:</label> -->
             <div class="input-area">
@@ -41,20 +28,20 @@
             
             <div class="input-area">
                 <div class="age-range">
-                    <i class="fas fa-child"></i><h4>I am child</h4>
+                    <i class="fas fa-child"></i>
+                    <h4>I am child</h4>
                 </div>
                 <div class="age-range">
-                     <i class="fas fa-male"></i><h4>I am adult</h4>
+                     <i class="fas fa-restroom"></i>
+                     <h4>I am adult</h4>
                 </div> 
             </div>
 
              <button type="submit" name="submit">SIGN UP</button>
-             <a href="index.html">BACK</a>
+             <a href="index.hbs">BACK</a>
             <!-- <h4>* Login Attempt: <?php echo $_SESSION['login_attempts']; ?> </h4> -->
                 <!-- <h5>Account will complete lockout after you 3 failed login attempts, please be careful ！！！</h5> -->
             </form>
         </div>
 
     </section>
-</body>
-</html>
