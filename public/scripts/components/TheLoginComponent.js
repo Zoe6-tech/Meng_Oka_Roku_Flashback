@@ -35,9 +35,14 @@ export default {
     },
 
     methods: {
-        storeCreds() {
-            window.localStorage.setItem("creds", JSON.stringify({name: this.username, pword: this.password}));
+        login(){
+
         }
+    },
+
+    created: function() {
+        console.log('login');
+        
     }
 }
 
